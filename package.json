@@ -1,0 +1,32 @@
+{
+  "name": "jsaudiobookannotator",
+  "version": "1.0.0",
+  "description": "\"Toolkit for audiobook annotation interface\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AghilasSini/jsAudiobookAnnotator.git"
+  },
+  "keywords": [
+    "\"Audiobook",
+    "Annotation",
+    "JavaScript",
+    "Nodejs\""
+  ],
+  "author": "Aghilas Sini",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/AghilasSini/jsAudiobookAnnotator/issues"
+  },
+  "homepage": "https://github.com/AghilasSini/jsAudiobookAnnotator#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "lodash": "^4.17.10"
+  }
+}
