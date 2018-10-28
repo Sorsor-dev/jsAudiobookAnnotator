@@ -1,32 +1,24 @@
 {
-  "name": "jsaudiobookannotator",
+  "name": "acquisition",
   "version": "1.0.0",
-  "description": "\"Toolkit for audiobook annotation interface\"",
-  "main": "index.js",
+  "description": "Acquired videos",
+  "main": "recordingVideo.js",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"nodemon index.js"
+    "start": "node recordingVideo.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/AghilasSini/jsAudiobookAnnotator.git"
-  },
-  "keywords": [
-    "\"Audiobook",
-    "Annotation",
-    "JavaScript",
-    "Nodejs\""
-  ],
-  "author": "Aghilas Sini",
-  "license": "GPL-3.0",
-  "bugs": {
-    "url": "https://github.com/AghilasSini/jsAudiobookAnnotator/issues"
-  },
-  "homepage": "https://github.com/AghilasSini/jsAudiobookAnnotator#readme",
+  "author": "Cédric Fayet",
+  "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.18.3",
-    "ejs": "^2.6.1",
-    "express": "^4.16.3",
-    "lodash": "^4.17.10"
-  }
+    "bootstrap": "^3.3.7",
+    "bootstrap-select": "^1.12.4",
+    "express": "^4.6.1",
+    "formidable": "^1.1.1",
+    "jquery": "^3.2.1",
+    "mime": "^2.0.3",
+    "util": "^0.10.3",
+    "video.js": "^6.4.0"
+  },
+  "devDependencies": {}
 }
