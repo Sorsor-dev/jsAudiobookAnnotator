@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery UI Selectable - Serialize</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+ 
+  <style>
+  #feedback { font-size: 1.4em; }
+  #selectable .ui-selecting { background: #FECA40; }
+  #selectable .ui-selected { background: #F39814; color: white; }
+  #selectable { list-style-type: none; margin: 0; padding: 0; width: 60%; }
+  #selectable li { margin: 3px; padding: 0.4em; font-size: 1.4em; height: 18px; }
+  </style>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="./js/control.js">
+  		
+  </script>
+</head>
+<body>
+ 
+<p id="feedback">
+<span>You've selected:</span> <span id="select-result">none</span>.
+</p>
+ 
+
+     <p id="selectable">
+<token timedeb="7000000" timeend="8100000 class="ui-widget-content">l\'</token> <token timedeb="8100000" timeend="12500000 class="ui-widget-content">inconnu</token> <token timedeb="13400000" timeend="17000000 class="ui-widget-content">haussa</token> <token timedeb="17000000" timeend="19000000 class="ui-widget-content">les</token> <token timedeb="19000000" timeend="24000000 class="ui-widget-content">épaules</token> <token timedeb="25200000" timeend="26100000 class="ui-widget-content">et</token> <token timedeb="26100000" timeend="31500000 class="ui-widget-content">rejoignit</token> <token timedeb="31500000" timeend="33100000 class="ui-widget-content">ses</token> <token timedeb="33100000" timeend="39000000 class="ui-widget-content">compagnons</token> <token timedeb="47400000" timeend="48600000 class="ui-widget-content">le</token> <token timedeb="48600000" timeend="54900000 class="ui-widget-content">charbonnier</token> <token timedeb="54900000" timeend="55900000 class="ui-widget-content">ne</token> <token timedeb="55900000" timeend="57100000 class="ui-widget-content">s\'</token> <token timedeb="57100000" timeend="61000000 class="ui-widget-content">éloigna</token> <token timedeb="61000000" timeend="63600000 class="ui-widget-content">pas</token> <token timedeb="63600000" timeend="64700000 class="ui-widget-content">de</token> <token timedeb="64700000" timeend="66000000 class="ui-widget-content">la</token> <token timedeb="66000000" timeend="69400000 class="ui-widget-content">porte</token> <token timedeb="69400000" timeend="70400000 class="ui-widget-content">du</token> <token timedeb="70400000" timeend="76200000 class="ui-widget-content">cabaret</token> <token timedeb="81900000" timeend="85500000 class="ui-widget-content">prêtant</token> <token timedeb="85500000" timeend="86199999 class="ui-widget-content">l\'</token> <token timedeb="86199999" timeend="89600000 class="ui-widget-content">oreille</token> <token timedeb="89600000" timeend="92000000 class="ui-widget-content">avec</token> <token timedeb="92000000" timeend="97000000 class="ui-widget-content">attention</token> <token timedeb="101900000" timeend="103500000 class="ui-widget-content">il</token> <token timedeb="103500000" timeend="108400000 class="ui-widget-content">regardait</token> <token timedeb="108400000" timeend="109600000 class="ui-widget-content">de</token> <token timedeb="109600000" timeend="113000000 class="ui-widget-content">temps</token> <token timedeb="113000000" timeend="114300000 class="ui-widget-content">à</token> <token timedeb="114300000" timeend="117500000 class="ui-widget-content">autre</token> <token timedeb="117500000" timeend="118800000 class="ui-widget-content">au</token> <token timedeb="118800000" timeend="123400000 class="ui-widget-content">travers</token> <token timedeb="123400000" timeend="124000000 class="ui-widget-content">d\'</token> <token timedeb="124000000" timeend="125200000 class="ui-widget-content">un</token> <token timedeb="125200000" timeend="128699999 class="ui-widget-content">petit</token> <token timedeb="128699999" timeend="132700000 class="ui-widget-content">jour</token> <token timedeb="136600000" timeend="142800000 class="ui-widget-content">pratiqué</token> <token timedeb="142800000" timeend="144300000 class="ui-widget-content">dans</token> <token timedeb="144300000" timeend="145500000 class="ui-widget-content">l\'</token> <token timedeb="145500000" timeend="149800000 class="ui-widget-content">épaisse</token> <token timedeb="149800000" timeend="153400000 class="ui-widget-content">couche</token> <token timedeb="153400000" timeend="155000000 class="ui-widget-content">de</token> <token timedeb="155000000" timeend="157600000 class="ui-widget-content">blanc</token> <token timedeb="157600000" timeend="158100000 class="ui-widget-content">d\'</token> <token timedeb="158100000" timeend="164600000 class="ui-widget-content">Espagne</token> <token timedeb="164600000" timeend="167100000 class="ui-widget-content">dont</token> <token timedeb="167100000" timeend="168800000 class="ui-widget-content">les</token> <token timedeb="168800000" timeend="172200000 class="ui-widget-content">vitres</token> <token timedeb="172200000" timeend="173200000 class="ui-widget-content">de</token> <token timedeb="173200000" timeend="175300000 class="ui-widget-content">ces</token> <token timedeb="175300000" timeend="180400000 class="ui-widget-content">repaires</token> <token timedeb="180400000" timeend="182500000 class="ui-widget-content">sont</token> <token timedeb="182500000" timeend="189100000 class="ui-widget-content">toujours</token> <token timedeb="189100000" timeend="194000000 class="ui-widget-content">enduites</token> <token timedeb="194000000" timeend="201900000 class="ui-widget-content">intérieurement</token>
+            		   </p>
+
+
+
+
+
+ 
+ 
+</body>
+</html>
